@@ -35,6 +35,8 @@ add_library( # Sets the name of the library.
             src/main/cpp/audio_lame.c
             src/main/cpp/fast_start.c
             src/main/cpp/ffprobe_cmd.c
+            #学习文件
+            src/main/cpp/study_demuxer.c
         )
 
 add_library( ffmpeg
