@@ -33,6 +33,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- test handle -->
+        <activity android:name=".activity.TestActivity" />
         <!-- audio handle -->
         <activity android:name=".activity.AudioHandleActivity" />
         <!-- media handle -->

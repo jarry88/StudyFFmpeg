@@ -83,5 +83,8 @@
     <string name="filter_rectangle">矩形</string>
     <string name="filter_flip">翻转</string>
     <string name="filter_sharpening">锐化</string>
+    <!--自定义-->
+    <string name="audio_test">自制</string>
+    <string name="test_log">日志测试</string>
 
 </resources>

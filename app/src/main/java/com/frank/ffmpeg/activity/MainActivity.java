@@ -22,6 +22,7 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
 
         initViewsWithClick(
+                R.id.btn_test,
                 R.id.btn_audio,
                 R.id.btn_video,
                 R.id.btn_media,
@@ -38,6 +39,9 @@ public class MainActivity extends BaseActivity {
     public void onViewClick(View v) {
         Intent intent = new Intent();
         switch (v.getId()) {
+            case R.id.btn_test://handle audio
+                intent.setClass(MainActivity.this, TestActivity.class);
+                break;
             case R.id.btn_audio://handle audio
                 intent.setClass(MainActivity.this, AudioHandleActivity.class);
                 break;
